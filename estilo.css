@@ -1,0 +1,17 @@
+*{margin: 0 auto;}
+
+body { 
+       background-color: #002836;
+   }
+
+h1 {
+     text-align: center;
+     text-transform: uppercase;
+     font-family: sans-serif;
+     font-family: helvetica;
+     margin: 50vh auto;
+     left: 50vh;
+     color: #005676;
+     text-shadow: 5px 3px 5px #000;
+     font-size: 3em;
+ }
