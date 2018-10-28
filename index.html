@@ -8,7 +8,26 @@
 </head>
 <body>
  <h1>Doug Desenvolvedor Fullstack</h1>
-<i class="fa fa-camera-retro fa-lg"></i>
+
 </body>
+<script>
+
+function typeWriter (elemento)	{
+  const textoArray = elemento.innerHTML.split('');
+   elemento.innerHTML = '';
+  textoArray.forEach((letra,i) =>{
+     setTimeout ( () => elemento.innerHTML += letra, 95*i)
+
+     
+ });
+
+
+}
+
+
+const titulo = document.querySelector('h1');
+typeWriter(titulo);
+
+</script>
 </html>
 
